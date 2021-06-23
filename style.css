@@ -1,0 +1,52 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(138, 140, 160);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: rgb(255, 252, 239);
+    margin: 50px;
+    text-decoration: none;
+}
+
+.contact{color: rgb(255, 252, 239);
+background-color:rgb(36, 62, 95);
+padding: 20px;
+border-radius: 20px;
+text-decoration: none;
+}
+.contact:hover{
+    background-color:rgb(66, 91, 122) ;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 252, 239);
+    background-color: rgb(36, 62, 95);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+main{
+
+    background-image: url(image.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 360px;
+}
+
+h1{
+    margin: 0;
+    font-size: 70px;
+}
