@@ -69,3 +69,27 @@ footer{
     color: white;
     padding: 10px;
 }
+
+@media(max-width: 500px){
+header{
+    display:block;
+    padding: 15px 5px
+}
+header a{
+    display: inline-block;
+}
+h1{
+    font-size: 35px;
+}
+aside{
+    display:block;
+
+}
+div{
+    width:90% ;
+    margin:10px auto
+}
+img {
+    max-width:100%;
+}
+}
