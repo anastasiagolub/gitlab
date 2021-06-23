@@ -63,6 +63,10 @@ div{
     border: rgb(30, 30, 43) 2px solid;
     width: 30%;
     text-align: center;
+   
+}
+img{
+    max-width: 100%;
 }
 footer{
     background-color: rgb(36, 62, 95);
